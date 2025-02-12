@@ -57,7 +57,7 @@ export function PageTwo() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            The Things I Love About You
+            What I felt and desired
           </motion.h2>
 
           {/* Content Section */}
@@ -73,18 +73,29 @@ export function PageTwo() {
           >
             <ul className="list-none text-[#4a3c2f] text-md xl:text-lg font-serif space-y-4">
               {[
-                "The way your laugh starts off small but ends up filling the entire room.",
-                "How you pause mid-sentence when you're thinking hard, like the world stops for you to figure it out.",
-                "The way your hands move when you talk, like every word needs its own little dance.",
-                "Your smile—sometimes mischievous, sometimes shy, but always warm.",
-                "How you tell stories with so much passion that I forget where we even started.",
-                "How even when you're annoyed, you still look ridiculously cute.",
-                "The way you overthink things, and somehow, I love that too.",
-                "How you set goals for yourself, big and small, and chase them without hesitation.",
-                "How you light up when you talk about the things you love, even if it’s something as small as your favorite food.",
-                "The way you challenge me, push me, and somehow manage to annoy me in the best way possible.",
-                "The fact that no matter how much time passes, I always want to hear what’s on your mind.",
-                "And most of all… I love that you are you.",
+                "After hearing your story and understanding your hesitation, I finally saw things from your perspective. And about that message I sent—I am sorry for that.",
+
+                "But the truth is, I could not let you go. And honestly? I did not want to. (Funny writing this now, lol.) That's why I had to come back to you.",
+
+                "The way you say 'theek hai na'—I don't know why, but it stuck with me. The way you looked at people, at the world—it was different. You saw things with good eyes.",
+
+                "Even when you had your own shit going on, you still tried to hear me, to understand me. And that meant something.",
+
+                "But you see, I never came to you just to 'be a couple.' That was never what I was looking for.",
+
+                "I'm not someone who 'puts in effort' just to establish a connection. I do things because they feel right, because they make me happy.",
+
+                "So when I called you, texted you, or showed up as fast as I could—it wasn't about following some relationship rulebook. It wasn't about trying to 'win you over' or doing what couples are supposed to do. I just wanted to be there. And I wanted to be there **more.**(Too soon to be saying this lol)",
+
+                "I wanted you to share your desires, your ambitions, your dreams, your deep secrets, your vulnerabilities. I wanted you to **annoy me to death** with your never-ending talks, your endless book recommendations, late-night anime discussions, and all the places we could have explored. (Funny how none of that's happening now, hehe.) But I wanted it because I genuinely wanted to listen. To hear you. To understand you. And yeah, I secretly hoped you'd slowly start asking me about my life too.",
+
+                "I knew I was getting your dry texts. I knew you weren't ready for anything. But deep down, I felt like you were holding yourself back—and I wanted to change that. I wanted you to feel free, to step outside your comfort zone. (Maybe I watch too much cinema, lol.)",
+
+                "Maybe I was looking for too much depth. Maybe my thinking is unrealistic.",
+
+                "But it really stings knowing that you're just **10 minutes away from me**, yet I wasn't able to see or hear you. Now it's been over **72 hours now**, and only *'theek hai na'* keeps echoing in my head.",
+
+                "So this is my way of saying things. Maybe I failed at expressing myself before, or maybe my words never really reached you. So yeah… this is my last way of reaching out. My last way of saying what I needed to say.",
               ].map((text, index) => (
                 <motion.li
                   key={index}

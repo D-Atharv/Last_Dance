@@ -56,7 +56,7 @@ export function PageOne() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            I See You. I Understand You.
+            I see where you stand, and I accept it ✌️
           </motion.h2>
 
           {/* Content Section */}
@@ -72,16 +72,13 @@ export function PageOne() {
           >
             <ul className="list-none text-[#4a3c2f] text-md xl:text-lg font-serif space-y-4">
               {[
-                "I know what it feels like to be unsure.",
-                "To want something but to second-guess it at the same time.",
-                "To have moments where your heart says 'go' but your mind says 'wait.'",
-                "I’ve been there too.",
-                "But maybe, just maybe, not everything has to be figured out before you take a step.",
-                "Not every decision has to be mapped out before it begins.",
-                "Maybe some things are worth figuring out along the way.",
-                "I'm not here to promise perfection, but I can promise presence.",
-                "Through the good, the messy, the confusing—this can be different.",
-                "No expectations, no rush. Just a chance to see where this could go.",
+                "Even if it was just for a moment, I genuinely enjoyed your company (hope you didn`t suffer through mine too much 😂)..",
+                "I hope you heal—and not just the `pretend-I'm-fine` kind, but the real, deep, `damn-I-feel-light-as-hell` kind. ✨",
+                "And I loved how you understood me and acknowledged my feelings. I felt good",
+                "But hey… not everything in life has to be perfectly planned before you take a step. Not every choice has to be mapped out before it begins.",
+                "Maybe some things are worth figuring out along the way. So go out there, take a step, and experience the hell out of life. No expectations, no pressure—just living, just seeing where things lead. 🌍",
+                "Who knows? Sometimes the best stories come from the unexpected twists and turns. 📖",
+                "",
               ].map((text, index) => (
                 <motion.li
                   key={index}

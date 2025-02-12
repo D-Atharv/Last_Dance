@@ -117,7 +117,7 @@ export function FrontCover() {
             scale: 1.05, // Slight zoom effect on hover
             filter: "brightness(1.2)", // Petals shimmer effect
           }}
-          className="absolute top-12 left-0 z-20 pointer-events-none"
+          className="absolute xl:top-12 xl:left-0 z-20 pointer-events-none"
         >
           <motion.div
             animate={{
@@ -144,7 +144,7 @@ export function FrontCover() {
 
         {/* TODO : fix the font */}
         <motion.div
-          className="h-3/4 md:text-2xl xl:text-2xl text-md font-bold text-[#8B5E3C] tracking-wide overflow-hidden whitespace-nowrap font-allura"
+          className="xl:h-3/4 h-2/3 text-sm text-wrap md:text-md xl:text-2xl text-md font-bold text-[#635247] tracking-wide overflow-visible text font-allura"
           initial={{ opacity: 0 }}
           animate={titleControl}
         >
@@ -153,8 +153,11 @@ export function FrontCover() {
             initial={{ clipPath: "inset(0% 100% 0% 0%)", opacity: 0 }}
             animate={{ clipPath: "inset(0% 0% 0% 0%)", opacity: 1 }}
             transition={{ duration: 4, ease: "easeInOut" }}
+            style={{
+              fontStyle: "italic",
+            }}
           >
-            If this is just a passing moment, let it rest gently between us
+            This is all it was meant to be, so I will let it go and set it free
           </motion.span>
           <motion.div
             className="absolute top-[-7px] xl:top-[-7px] right-8 xl:right-16 z-20 transform"
@@ -216,7 +219,7 @@ export function FrontCover() {
 
         {!coverOpen && (
           <motion.div
-            className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-2xl font-serif text-[#6B4F35] opacity-80"
+            className="absolute bottom-6 left-1/2 w-full text-center transform -translate-x-1/2 text-2xl font-serif text-[#6B4F35] opacity-80"
             initial={{ opacity: 0 }}
             animate={{ opacity: [0, 1, 0] }}
             transition={{ duration: 10, repeat: Infinity }}

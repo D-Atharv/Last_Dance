@@ -69,38 +69,76 @@ export function PageThree() {
                 variants={typewriterVariants}
                 custom={0}
               >
-                I Get It Now
+                Going Forward In Life
               </motion.h2>
 
-              <div className="space-y-8">
+              {/* <div className="space-y-8">
                 <motion.div
                   variants={typewriterVariants}
                   custom={1}
                   className="text-base sm:text-lg md:text-xl text-gray-700"
                 >
                   <p>
-                    I waited because I thought some things were worth waiting
-                    for. Because I believed, maybe, you just needed time to find
-                    the right words. But I understand now—sometimes, silence
-                    says everything.
+                    So waiting till Thursday and after not getting either no or
+                    yes answer from you, I am taking this as a No from you and I
+                    am dropping this tale here.
                   </p>
                   <p className="mt-4">
-                    I don’t hold it against you. And I won’t lie, it stings a
-                    little. Not because I expected a yes, but because I cared
+                    I do not hold it against you. And I will not lie, it stings
+                    a little. Not because I expected a yes, but because I cared
                     enough to ask.
                   </p>
                   <p className="mt-4">
-                    But I don’t want to be someone who holds onto something that
-                    isn’t meant to be held. So, I’m letting this go. Not in
-                    frustration, not in sadness—just because it’s time.
+                    But I am not someone who holds onto something that is not
+                    meant to be. So, I am letting this go. Not with anger, not
+                    with regret—just with the quiet understanding that it is
+                    time.
                   </p>
                   <p className="mt-4">
                     I hope life treats you well. I really do. And if our paths
-                    ever cross again, I hope it’s in a way that makes sense for
+                    ever cross again, I hope it is in a way that makes sense for
                     both of us.
                   </p>
                 </motion.div>
-              </div>
+              </div> */}
+
+              {/* Content Section */}
+              <motion.div
+                className="w-full bg-white border-2 border-[#8B5E3C] rounded-lg shadow-md p-4 "
+                style={{
+                  maxHeight: "50%",
+                  overflowY: "auto",
+                }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.7 }}
+              >
+                <ul className="list-none text-[#4a3c2f] text-md xl:text-lg font-serif space-y-4">
+                  {[
+                    "So waiting till Thursday and after not getting either no or yes answer from you, I am taking this as a No from you and I am dropping this tale here.",
+
+                    " I do not hold it against you. And I will not lie, it stings a little. Not because I expected a yes, but because I cared enough to ask.",
+
+                    " But I am not someone who holds onto something that is not meant to be. So, I am letting this go. Not with anger, not with regret—just with the quiet understanding that it is time.",
+
+                    " I hope life treats you well. I really do. And if our paths ever cross again, I hope it is in a way that makes sense for both of us.",
+                  ].map((text, index) => (
+                    <motion.li
+                      key={index}
+                      initial={{ opacity: 0, x: -10 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.3, delay: index * 0.2 }}
+                      className={`${
+                        index % 3 === 0
+                          ? "italic font-light"
+                          : "font-medium tracking-wide"
+                      }`}
+                    >
+                      {text}
+                    </motion.li>
+                  ))}
+                </ul>
+              </motion.div>
 
               {/* ✅ Click-to-Reveal Prompt */}
               {!finalMessageVisible && (
@@ -122,8 +160,8 @@ export function PageThree() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
                 >
-                  You were a beautiful chapter in my story. Now, its time to
-                  turn the page.
+                  A small beautiful chapter. Now, its time to end. Click to end
+                  this.
                 </motion.div>
               )}
 

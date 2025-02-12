@@ -10,13 +10,10 @@ import { BackCover } from "../components/BackCover";
 import { LandingContext } from "../context/Context";
 
 const Landing: FC = () => {
-  const { coverOpen, page3Open, playPageTurnSound } =
-    useContext(LandingContext)!;
+  const { coverOpen, page3Open } = useContext(LandingContext)!;
 
   return (
     <>
-      <audio ref={playPageTurnSound} src="/audio/pageTurn.mp3" preload="auto" />
-
       <div className={`${styles.container}`}>
         <div
           className={`${styles.book} 

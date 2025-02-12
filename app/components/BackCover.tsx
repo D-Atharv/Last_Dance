@@ -59,10 +59,7 @@ export function BackCover({ page3Open }: BackCoverProps) {
             transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
             whileHover={{ scale: 1.05, color: "#4A3C2F" }}
           >
-            P.S.{" "}
-            <span className="underline">
-              My music taste is better 
-            </span>
+            P.S. <span className="underline">My music taste is better</span>
           </motion.p>
         </motion.div>
       </div>
