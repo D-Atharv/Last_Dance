@@ -72,36 +72,6 @@ export function PageThree() {
                 Going Forward In Life
               </motion.h2>
 
-              {/* <div className="space-y-8">
-                <motion.div
-                  variants={typewriterVariants}
-                  custom={1}
-                  className="text-base sm:text-lg md:text-xl text-gray-700"
-                >
-                  <p>
-                    So waiting till Thursday and after not getting either no or
-                    yes answer from you, I am taking this as a No from you and I
-                    am dropping this tale here.
-                  </p>
-                  <p className="mt-4">
-                    I do not hold it against you. And I will not lie, it stings
-                    a little. Not because I expected a yes, but because I cared
-                    enough to ask.
-                  </p>
-                  <p className="mt-4">
-                    But I am not someone who holds onto something that is not
-                    meant to be. So, I am letting this go. Not with anger, not
-                    with regret—just with the quiet understanding that it is
-                    time.
-                  </p>
-                  <p className="mt-4">
-                    I hope life treats you well. I really do. And if our paths
-                    ever cross again, I hope it is in a way that makes sense for
-                    both of us.
-                  </p>
-                </motion.div>
-              </div> */}
-
               {/* Content Section */}
               <motion.div
                 className="w-full bg-white border-2 border-[#8B5E3C] rounded-lg shadow-md p-4 "
@@ -119,7 +89,7 @@ export function PageThree() {
 
                     " I do not hold it against you. And I will not lie, it stings a little. Not because I expected a yes, but because I cared enough to ask.",
 
-                    " But I am not someone who holds onto something that is not meant to be. So, I am letting this go. Not with anger, not with regret—just with the quiet understanding that it is time.",
+                    " But I am not someone who holds onto something that is not meant to be. So, I am letting this rope go which I was holding. Not with anger, not with regret—just with the quiet understanding that it is time.",
 
                     " I hope life treats you well. I really do. And if our paths ever cross again, I hope it is in a way that makes sense for both of us.",
                   ].map((text, index) => (
@@ -160,8 +130,8 @@ export function PageThree() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
                 >
-                  A small beautiful chapter. Now, its time to end. Click to end
-                  this.
+                  A small beautiful chapter. Now, it is time to end. Click once
+                  more to end this.
                 </motion.div>
               )}
 

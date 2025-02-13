@@ -87,13 +87,15 @@ export function PageTwo() {
 
                 "So when I called you, texted you, or showed up as fast as I could—it wasn't about following some relationship rulebook. It wasn't about trying to 'win you over' or doing what couples are supposed to do. I just wanted to be there. And I wanted to be there **more.**(Too soon to be saying this lol)",
 
-                "I wanted you to share your desires, your ambitions, your dreams, your deep secrets, your vulnerabilities. I wanted you to **annoy me to death** with your never-ending talks, your endless book recommendations, late-night anime discussions, and all the places we could have explored. (Funny how none of that's happening now, hehe.) But I wanted it because I genuinely wanted to listen. To hear you. To understand you. And yeah, I secretly hoped you'd slowly start asking me about my life too.",
+                "I wanted you to share your desires, your ambitions, your dreams, your deep secrets, your vulnerabilities. I wanted you to **annoy me to death** with your never-ending talks, your endless book recommendations, late-night anime discussions, and all the places we could have explored. (Lol how none of that's happening now, hehe.) But I wanted it because I genuinely wanted to listen. To hear you. To understand you. And yeah, I secretly hoped you'd slowly start asking me about my life too.",
 
                 "I knew I was getting your dry texts. I knew you weren't ready for anything. But deep down, I felt like you were holding yourself back—and I wanted to change that. I wanted you to feel free, to step outside your comfort zone. (Maybe I watch too much cinema, lol.)",
 
-                "Maybe I was looking for too much depth. Maybe my thinking is unrealistic.",
+                "Maybe I was looking for too much depth. Maybe I was being unrealistic. Maybe I was looking things in a way that was not meant to be seen that way. I made things a little too complicated but I just wanted something simple and something that felt like home where we are free to say anything, free to feel anything and feel to communicate anything.",
 
-                "But it really stings knowing that you're just **10 minutes away from me**, yet I wasn't able to see or hear you. Now it's been over **72 hours now**, and only *'theek hai na'* keeps echoing in my head.",
+                "Saw you again today this morning. You were literally just a few steps away from me and still I could not come to you and had to prevent I never knew you.",
+
+                "But it really stings knowing that you were just 10 minutes away from me, yet I wasn't able to see or hear you. Now it's been over 72 hours now, and only 'theek hai na' keeps echoing in my head. But this too shall pass, right?",
 
                 "So this is my way of saying things. Maybe I failed at expressing myself before, or maybe my words never really reached you. So yeah… this is my last way of reaching out. My last way of saying what I needed to say.",
               ].map((text, index) => (

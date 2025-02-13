@@ -31,10 +31,10 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white">
       <div className="relative p-8 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-lg w-96">
         <h2 className="text-2xl font-semibold text-center mb-4 text-gray-200">
-          Welcome Back
+          Welcome 
         </h2>
         <p className="text-sm text-gray-400 text-center mb-6">
-          Enter the secret key to unlock your world.
+          Enter the secret key to unlock.
         </p>
         <form onSubmit={handleLogin} className="space-y-4">
           <input

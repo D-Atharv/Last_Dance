@@ -157,7 +157,7 @@ export function FrontCover() {
               fontStyle: "italic",
             }}
           >
-            This is all it was meant to be, so I will let it go and set it free
+            This is all a fleeting dream, so I will let it go and set it free
           </motion.span>
           <motion.div
             className="absolute top-[-7px] xl:top-[-7px] right-8 xl:right-16 z-20 transform"
