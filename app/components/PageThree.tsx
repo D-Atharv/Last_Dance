@@ -85,9 +85,9 @@ export function PageThree() {
               >
                 <ul className="list-none text-[#4a3c2f] text-md xl:text-lg font-serif space-y-4">
                   {[
-                    "So waiting till Thursday and after not getting either no or yes answer from you, I am taking this as a No from you and I am dropping this tale here.",
+                    "So waiting till Thursday and after not getting either 'yes or no' as an answer from you, I am taking this as a No from you and I am dropping this tale here.",
 
-                    " I do not hold it against you. And I will not lie, it stings a little. Not because I expected a yes, but because I cared enough to ask.",
+                    " I do not hold it against you. And I will not lie, it hurts a little. Not because I expected a yes, but because I cared enough to ask.",
 
                     " But I am not someone who holds onto something that is not meant to be. So, I am letting this rope go which I was holding. Not with anger, not with regret—just with the quiet understanding that it is time.",
 
@@ -118,7 +118,7 @@ export function PageThree() {
                   animate={{ opacity: [0, 1, 0] }}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
-                  Tap one last time...
+                  Tap here...
                 </motion.p>
               )}
 
@@ -130,8 +130,7 @@ export function PageThree() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
                 >
-                  A small beautiful chapter. Now, it is time to end. Click once
-                  more to end this.
+                  A small beautiful chapter. Now, it is time to end this. Click to end this.
                 </motion.div>
               )}
 

@@ -72,12 +72,13 @@ export function PageOne() {
           >
             <ul className="list-none text-[#4a3c2f] text-md xl:text-lg font-serif space-y-4">
               {[
-                "Even if it was just for a moment, I genuinely enjoyed your company (hope you didn`t suffer through mine too much 😂)..",
+                "Hey! Even if it was just for a moment, I genuinely enjoyed your company (hope you didn`t suffer through mine too much 😂)..",
                 "I hope you heal—and not just the `pretend-I'm-fine` kind, but the real, deep, `damn-I-feel-light-as-hell` kind. ✨",
-                "And I loved how you understood me and acknowledged my feelings. I felt good",
+                "And I loved how you understood me and acknowledged my feelings. It felt good",
                 "But hey… not everything in life has to be perfectly planned before you take a step. Not every choice has to be mapped out before it begins.",
-                "Maybe some things are worth figuring out along the way. So go out there, take a step, and experience the hell out of life. No expectations, no pressure—just living, just seeing where things lead. 🌍",
+                "Maybe some things are worth figuring out along the way. So this time go out there, take a step, and experience the hell out of life. No expectations, no pressure—just living, just seeing where things lead 🌍.",
                 "Who knows? Sometimes the best stories come from the unexpected twists and turns. 📖",
+                "I understand your perspective and see where you stand, and I accept it ✌️",
                 "",
               ].map((text, index) => (
                 <motion.li
